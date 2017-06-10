@@ -1,0 +1,45 @@
+/*dark green #61B34F*/
+/*light green #83C178*/
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: Helvetica;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 25%;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+div {
+  display: flex;
+  background-color: green;
+  color: white;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F0F5F8;
+}
+div p {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.clear {
+
+}
+
+.display {
+  width: 240px;
+}
