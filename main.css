@@ -3,7 +3,6 @@
 
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -12,6 +11,7 @@ body {
   margin: auto;
   font-family: Helvetica;
 }
+
 main {
   display: flex;
   justify-content: center;
@@ -23,21 +23,25 @@ main {
 
 div {
   display: flex;
-  background-color: green;
-  color: white;
+  background-color: #61B34F;
+  color: #F0F5F8;
   width: 80px;
   height: 80px;
   justify-content: center;
   align-items: center;
   border: 1px solid #F0F5F8;
+  border-radius: 3px;
 }
+
 div p {
   font-size: 30px;
   font-weight: 100;
 }
 
-.clear {
-
+div p:hover {
+  font-size: 31px;
+  color: #F0F5F8;
+  cursor: pointer;
 }
 
 .display {
